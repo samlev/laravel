@@ -37,6 +37,7 @@ return [
     'email'                => 'The :attribute must be a valid email address.',
     'exists'               => 'The selected :attribute is invalid.',
     'filled'               => 'The :attribute field is required.',
+    'from'                 => 'The :attribute must be a date on or after :date.',
     'image'                => 'The :attribute must be an image.',
     'in'                   => 'The selected :attribute is invalid.',
     'integer'              => 'The :attribute must be an integer.',
@@ -74,6 +75,7 @@ return [
     'string'               => 'The :attribute must be a string.',
     'timezone'             => 'The :attribute must be a valid zone.',
     'unique'               => 'The :attribute has already been taken.',
+    'until'                => 'The :attribute must be a date before or on :date.',
     'url'                  => 'The :attribute format is invalid.',
 
     /*
